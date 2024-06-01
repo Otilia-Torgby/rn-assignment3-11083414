@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View,Image,} from 'react-native';
-
+import SearchBar from './Components/SearchBar';
 
 export default function App() {
   return (
@@ -10,9 +10,10 @@ export default function App() {
      <Text>14 tasks today</Text>
       <Image
         source={require("./Images/image 1.png")}
-        style={{ width: 50, height: 50, marginLeft:300, position:`absolute`,
+        style={{ width: 50, height: 50, marginLeft:320, position:`absolute`,
           backgroundColor: `#fbf9f7`,borderRadius: 100,}}
       />
+      <SearchBar/>
       <StatusBar style="auto" />
     </View>
   );
