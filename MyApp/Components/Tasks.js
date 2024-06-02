@@ -17,7 +17,7 @@ const Tasks = () => {
         {text:'Walk', key:'10'},
         {text:'UI/UX Design', key:'11'},
         {text:'Wash', key:'12'},
-        {text:'Graphic Designing', key:'13'},
+        {text:'Graphic Design', key:'13'},
         {text:'Garden', key:'14'},
         {text:'Art Works', key:'15'},
 
