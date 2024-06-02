@@ -5,7 +5,7 @@ export default function SearchBar({ onChangeText, value }) {
     return (
       <View style={styles.main}>
         <Image
-        source={require("../Images/image 2.jpg")} 
+        source={require("../assets/image 2.jpg")} 
         style={styles.icon}
       />
         <TextInput
@@ -15,9 +15,9 @@ export default function SearchBar({ onChangeText, value }) {
           value={value}
     />
     <Image
-        source={require("../Images/image 3.png")} 
-        style={{ width: 50, height: 50, marginLeft:310, position:`absolute`,
-        backgroundColor: `#f0522f`,borderRadius: 10,}}
+        source={require("../assets/vector.png")} 
+        style={{ width: 40, height: 40, marginLeft:310, position:`absolute`,
+        backgroundColor: `#f0522f`,borderRadius: 5,}}
       />
       </View>
     );
